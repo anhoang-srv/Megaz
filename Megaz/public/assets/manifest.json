@@ -1,0 +1,383 @@
+{{{
+
+  "version": "1.0.0",
+
+  "description": "Asset manifest for MegaMan X4 Web",  "version": "1.0.0",  "version": "1.0.0",
+
+  "textures": {
+
+    "player": {  "description": "Asset manifest for MegaMan X4 Web",  "description": "Asset manifest for MegaMan X4 Web",
+
+      "IDLE": {
+
+        "path": "/assets/textures/Single/IDLE.png",  "textures": {  "textures": {
+
+        "type": "single"
+
+      }    "player": {    "player": {
+
+    }
+
+  }      "IDLE": {      "IDLE": {
+
+}
+        "path": "/assets/textures/Single/IDLE.png",        "path": "/assets/textures/Single/IDLE.png",
+
+        "type": "single"        "type": "single"
+
+      },      },
+
+      "Spawn1": {      "Spawn1": {
+
+        "path": "/assets/textures/Single/Spawn1.png",        "path": "/assets/textures/Single/Spawn1.png",
+
+        "type": "single"        "type": "single"
+
+      },      },
+
+      "Spawn2": {      "Spawn2": {
+
+        "path": "/assets/textures/Single/Spawn2.png",        "path": "/assets/textures/Single/Spawn2.png",
+
+        "type": "single"        "type": "single"
+
+      },      },
+
+      "Spawn3": {      "Spawn3": {
+
+        "path": "/assets/textures/Single/Spawn3.png",        "path": "/assets/textures/Single/Spawn3.png",
+
+        "type": "single"        "type": "single"
+
+      },      },
+
+      "Spawn4": {      "Spawn4": {
+
+        "path": "/assets/textures/Single/Spawn4.png",        "path": "/assets/textures/Single/Spawn4.png",
+
+        "type": "single"        "type": "single"
+
+      },      },
+
+      "Spawn5": {      "Spawn5": {
+
+        "path": "/assets/textures/Single/Spawn5.png",        "path": "/assets/textures/Single/Spawn5.png",
+
+        "type": "single"        "type": "single"
+
+      }      },
+
+    },      "Zero": {
+
+    "backgrounds": {        "Walk": {
+
+      "Platform": {          "path": "/assets/textures/Multi/Walk{}.PNG",
+
+        "path": "/assets/textures/backgrounds/Platform.png",          "frameCount": 14,
+
+        "type": "single"          "frameStart": 0,
+
+      },          "type": "multi"
+
+      "Wall": {        },
+
+        "path": "/assets/textures/backgrounds/Wall.png",        "DashStart": {
+
+        "type": "single"          "path": "/assets/textures/Multi/DashStart{}.png",
+
+      }          "frameCount": 7,
+
+    }          "frameStart": 0,
+
+  },          "type": "multi"
+
+  "sounds": {        },
+
+    "jump": {        "DashEnd": {
+
+      "path": "/assets/sounds/jump.wav",          "path": "/assets/textures/Multi/DashEnd{}.png",
+
+      "volume": 0.7,          "frameCount": 4,
+
+      "loop": false          "frameStart": 0,
+
+    },          "type": "multi"
+
+    "dash": {        },
+
+      "path": "/assets/sounds/dash.wav",        "JumpStart": {
+
+      "volume": 0.6,          "path": "/assets/textures/Multi/JumpStart{}.PNG",
+
+      "loop": false          "frameCount": 4,
+
+    },          "frameStart": 0,
+
+    "sword": {          "type": "multi"
+
+      "path": "/assets/sounds/sword.wav",        },
+
+      "volume": 0.8,        "JumpDown": {
+
+      "loop": false          "path": "/assets/textures/Multi/JumpDown{}.png",
+
+    }          "frameCount": 6,
+
+  }          "frameStart": 0,
+
+}          "type": "multi"
+        },
+        "JumpOff": {
+          "path": "/assets/textures/Multi/JumpOff{}.png",
+          "frameCount": 3,
+          "frameStart": 0,
+          "type": "multi"
+        },
+        "A1": {
+          "path": "/assets/textures/Multi/LA{}.png",
+          "frameCount": 2,
+          "frameStart": 0,
+          "type": "multi"
+        },
+        "Fire": {
+          "path": "/assets/textures/Multi/AF{}.png",
+          "frameCount": 10,
+          "frameStart": 0,
+          "type": "multi"
+        },
+        "JA": {
+          "path": "/assets/textures/Multi/JA{}.png",
+          "frameCount": 8,
+          "frameStart": 0,
+          "type": "multi"
+        },
+        "Hit": {
+          "path": "/assets/textures/Multi/Hit{}.png",
+          "frameCount": 10,
+          "frameStart": 0,
+          "type": "multi"
+        }
+      }
+    },
+    "backgrounds": {
+      "BG": {
+        "path": "/assets/textures/backgrounds/Logo.png",
+        "type": "single"
+      },
+      "BG2": {
+        "path": "/assets/textures/backgrounds/BG2.png", 
+        "type": "single"
+      },
+      "BigShip": {
+        "path": "/assets/textures/backgrounds/BGOb1.png",
+        "type": "single"
+      },
+      "SmallShip": {
+        "path": "/assets/textures/backgrounds/BGOb2.png",
+        "type": "single"
+      },
+      "Statue": {
+        "path": "/assets/textures/backgrounds/Statue.png",
+        "type": "single"
+      },
+      "Platform": {
+        "path": "/assets/textures/backgrounds/Platform.png",
+        "type": "single"
+      },
+      "Platform_long": {
+        "path": "/assets/textures/backgrounds/Platform_long.png",
+        "type": "single"
+      },
+      "Wall": {
+        "path": "/assets/textures/backgrounds/Wall.png",
+        "type": "single"
+      },
+      "UI": {
+        "path": "/assets/textures/backgrounds/hpbar.png",
+        "type": "single"
+      }
+    },
+    "player": {
+      "IDLE": {
+        "path": "/assets/textures/player/IDLE.png",
+        "type": "single"
+      },
+      "Zero": {
+        "Walk": {
+          "path": "/assets/textures/player/Walk%d.png",
+          "type": "multi",
+          "frameCount": 14
+        },
+        "DashStart": {
+          "path": "/assets/textures/player/DashStart%d.png",
+          "type": "multi", 
+          "frameCount": 7
+        },
+        "DashEnd": {
+          "path": "/assets/textures/player/DashEnd%d.png",
+          "type": "multi",
+          "frameCount": 4
+        },
+        "Hit": {
+          "path": "/assets/textures/player/Hit%d.png",
+          "type": "multi",
+          "frameCount": 10
+        },
+        "JumpStart": {
+          "path": "/assets/textures/player/JumpStart%d.png",
+          "type": "multi",
+          "frameCount": 4
+        },
+        "JumpOff": {
+          "path": "/assets/textures/player/JumpOff%d.png",
+          "type": "multi",
+          "frameCount": 3
+        },
+        "JumpDown": {
+          "path": "/assets/textures/player/JumpDown%d.png",
+          "type": "multi",
+          "frameCount": 4
+        },
+        "Attach": {
+          "path": "/assets/textures/player/Attach%d.png",
+          "type": "multi",
+          "frameCount": 1
+        },
+        "A1": {
+          "path": "/assets/textures/player/Attack_M1_%d.png",
+          "type": "multi",
+          "frameCount": 7
+        },
+        "A2": {
+          "path": "/assets/textures/player/Attack_M2_%d.png",
+          "type": "multi",
+          "frameCount": 7
+        },
+        "A3": {
+          "path": "/assets/textures/player/Attack_M3_%d.png",
+          "type": "multi",
+          "frameCount": 11
+        },
+        "Fire": {
+          "path": "/assets/textures/player/AF%d.png",
+          "type": "multi",
+          "frameCount": 10
+        },
+        "JA": {
+          "path": "/assets/textures/player/JA%d.png",
+          "type": "multi",
+          "frameCount": 8
+        }
+      }
+    },
+    "enemies": {
+      "Mop": {
+        "Mops": {
+          "path": "/assets/textures/enemies/Mop%d.png",
+          "type": "multi",
+          "frameCount": 10
+        },
+        "Mops2": {
+          "path": "/assets/textures/enemies/Mop2_%d.png",
+          "type": "multi",
+          "frameCount": 3
+        }
+      },
+      "Boom": {
+        "boom": {
+          "path": "/assets/textures/effects/boom%d.png",
+          "type": "multi",
+          "frameCount": 5
+        }
+      }
+    },
+    "effects": {
+      "DashEffect": {
+        "path": "/assets/textures/effects/dash.png",
+        "type": "single"
+      },
+      "Spawn1": {
+        "path": "/assets/textures/effects/Spawn1.png",
+        "type": "single"
+      },
+      "Spawn2": {
+        "path": "/assets/textures/effects/Spawn2.png",
+        "type": "single"
+      },
+      "Spawn3": {
+        "path": "/assets/textures/effects/Spawn3.png",
+        "type": "single"
+      },
+      "Spawn4": {
+        "path": "/assets/textures/effects/Spawn4.png",
+        "type": "single"
+      },
+      "Spawn5": {
+        "path": "/assets/textures/effects/Spawn5.png",
+        "type": "single"
+      }
+    }
+  },
+  "sounds": {
+    "bgm": {
+      "path": "/assets/sounds/bgm.ogg",
+      "type": "music",
+      "loop": true
+    },
+    "ready": {
+      "path": "/assets/sounds/Ready.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "lazer": {
+      "path": "/assets/sounds/Lazer.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "dash": {
+      "path": "/assets/sounds/Dash.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "jump": {
+      "path": "/assets/sounds/Jump.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "plat": {
+      "path": "/assets/sounds/Plat.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "a1": {
+      "path": "/assets/sounds/A1.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "a2": {
+      "path": "/assets/sounds/A2.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "a3": {
+      "path": "/assets/sounds/A3.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "sword": {
+      "path": "/assets/sounds/Sword.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "bomb": {
+      "path": "/assets/sounds/Bomb.ogg",
+      "type": "sfx",
+      "loop": false
+    },
+    "fire": {
+      "path": "/assets/sounds/Fire.ogg",
+      "type": "sfx",
+      "loop": false
+    }
+  }
+}

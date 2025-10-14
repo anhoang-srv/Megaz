@@ -1,0 +1,35 @@
+{
+  "name": "megaman-x4-web",
+  "version": "1.0.0",
+  "description": "MegaMan X4 web port using JavaScript",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src --ext .js,.ts",
+    "format": "prettier --write src/**/*.{js,ts,json}"
+  },
+  "dependencies": {
+    "pixi.js": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^7.1.9",
+    "vitest": "^0.34.6"
+  },
+  "keywords": [
+    "megaman",
+    "game",
+    "javascript",
+    "web",
+    "pixi"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

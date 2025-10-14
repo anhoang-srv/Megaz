@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaMan X4 - Web Version</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        #game-canvas {
+            border: 2px solid #333;
+            /* Pixel art rendering for different browsers */
+            image-rendering: -webkit-optimize-contrast; /* Edge 79+ */
+            image-rendering: -webkit-crisp-edges;       /* Webkit browsers */
+            image-rendering: -moz-crisp-edges;          /* Firefox */
+            image-rendering: pixelated;                 /* Standard */
+            image-rendering: crisp-edges;               /* Fallback */
+        }
+        #game-canvas.hidden {
+            display: none;
+        }
+        #loading {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="loading">Loading MegaMan X4...</div>
+        <canvas id="game-canvas" class="hidden"></canvas>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
